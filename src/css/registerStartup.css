@@ -1,0 +1,189 @@
+.startup h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .atartup h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .atartup label {
+    display: block;
+    margin-bottom: -21px;
+  }
+  #linkedin-st input,#target input,#minimumFund input,#stage input,#state-st input,#country-st input,#pin-st input,#city-st input,#street-st input,#domain input,#buildingNo-st input,#Websiteurl input,#startupSummary-st-s input,#bio-st-up input,#startupName-st input,#currentValuation input,#seriesOfFunding input,#pitchDeck input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .atartup input[type="file"] {
+    margin-bottom: 20px;
+  }
+  .cofounder{
+    text-align: center;
+  }
+  .startup-row1{
+    display: flex;
+    flex-direction: row;
+  }
+  #startupName-st{
+    position: relative;
+    width:40%;
+    left:8%;
+  }
+  #target{
+    width: 40%;
+    position: relative;
+    left: 8%;
+  }
+.startup-row-target{
+  display: flex;
+  flex-direction: row;
+}
+  #minimumFund{
+    width: 40%;
+    position: relative;
+    left: 10%;
+  }
+  #linkedin-st{
+    position: relative;
+    width: 40%;
+    left:12%;
+  }
+  #stage{
+    width: 83%;
+    position: relative;
+    left: 8%;
+  }
+  #Websiteurl{
+    position: relative;
+    width: 85%;
+    left:8%;
+  }
+  #startupSummary-st-s{
+    position: relative;
+    width: 85%;
+    left:8%;
+  }
+  #startupSummary-st{
+    position: relative;
+    height:200px;
+  }
+  #bio-st-up{
+    position: relative;
+    width: 85%;
+    left:8%;
+  }
+  #bio-st{
+    position: relative;
+    height:200px;
+  }
+  #pitchDeck{
+    position: relative;
+    width:70%;
+    left:14%;
+  }
+  #pitchDeck-st{
+    position: relative;
+    height: 150px;
+  }
+  .startup-row5{
+    display: flex;
+    flex-direction: row;
+  }
+  #seriesOfFunding{
+    position: relative;
+    width: 30%;
+    left:12%;
+  }
+  #currentValuation{
+    position: relative;
+    width:50%;
+    left:8%;
+  }
+  #domain{
+    position: relative;
+    width:83%;
+    left:8%;
+  }
+  .startup-row6{
+    display: flex;
+    flex-direction: row;
+  }
+  #buildingNo-st{
+    position: relative;
+    width:20%;
+    left:8%;
+  }
+  #buildingNo-st-txt{
+    position: relative;
+    left:8%;
+  }
+  #street-st{
+    position: relative;
+    width:30%;
+    left:10%;
+  }
+  #city-st{
+    position: relative;
+    width:30%;
+    left:12%;
+  }
+  .startup-row7{
+    display: flex;
+    flex-direction: row;
+  }
+  #state-st{
+    position: relative;
+    width:30%;
+    left:8%;
+  }
+  #pin-st{
+    position: relative;
+    width:20%;
+    left:10%;
+  }
+  #country-st{
+    position: relative;
+    width:30%;
+    left:12%;
+  }
+  .add{
+    position: relative;
+    bottom:400px;
+  }
+  .submit-st {
+    position: relative;
+    bottom: 400px;;
+    background-color: #0077FF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
+    width: 30%;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .prev{
+    position: relative;
+     background-color: #86E0A9;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }

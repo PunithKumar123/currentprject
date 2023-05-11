@@ -1,0 +1,209 @@
+.bg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between ;
+  background-image: linear-gradient(to bottom, #10d49c, #00caa1, #00bfa4, #00b5a4, #00aaa3, #009b9d, #008c95, #007d8b, #00677a, #045267, #093d52, #0a2a3d);
+}
+/* .bg img {
+  width: 400px;
+  height: 500px;
+  object-fit: contain;
+} */
+.Profic-pic input{
+  display: none   ;
+}
+.form-container-vc-left p{
+  color: white;
+  font-size: 2rem;
+  word-break: normal;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+.form-container-vc {
+  /* box-shadow: 0px 0px 20px 4px rgba(4,229,167,0.45); */
+/* border:1px solid #00687ac2; */
+  color: white;
+  width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  /* background-color: #E7DEE0; */
+  background-color: #009b9d;
+  border-radius: 25px;
+}
+.form-container-vc h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.btn-1:hover {
+  background-color: #04E5A7;
+}
+.form-container-vc label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-container-vc .txtForm {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form-container-vc input[type="file"] {
+  margin-bottom: 10px;
+}
+.btn-1 {
+  display: block;
+}
+.btn-1 {
+  /* background-color:#04E5A7; */
+  background-color:#045267;
+  border: none;
+  bottom: 300px;
+  border-radius: 25px;
+  color: #fff;
+  width:200px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  display: block;
+  margin: auto;
+}
+.txtForm-1 {
+  box-shadow: none;
+  border: none;
+  background-color: none;
+  border-radius: 0%;
+}
+.regvc-row1 ,.regvc-row2,.regvc-row3,.regvc-row4,.regvc-row5{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+#vcname {
+  margin-right: 10px;
+  width: 30%;
+}
+#Stage{
+  width: 40%;
+}
+#investorType{
+  width: 38%;
+}
+#email {
+  margin-right: 10px;
+  width: 30%;
+}
+/* #email-txt {
+  left: 420px;
+  bottom: 73px;
+} */
+#bio {
+  height: 150px;
+  width: 125%;
+}
+#vclinkedin {
+  width: 38%;
+}
+#contact {
+  margin-right: 10px;
+  width: 30%;
+}
+#expertise {
+   margin-right: 10px;
+  width: 30%;
+}
+#buildingNo{
+    width: 15%;
+    margin-right: 10px;
+}
+#buildingNo-txt{
+  left: 2px;
+  top: 25px;
+}
+#street{
+  margin-top: 28px;
+  width: 20%;
+  margin-right: 10px;
+}
+#city{
+  margin-top: 28px;
+  width: 29%;
+  margin-right: 10px;
+}
+#state{
+    margin-top: 28px;
+    width: 32%;
+}
+#pin{
+    width: 22%;
+  margin-right: 10px;
+}
+#country{
+    left: 64%;
+    width: 28%;
+    bottom: 390px;
+}
+#Short-summary{
+    width: 54%;
+    margin-left: 80px;
+    /* height: 200px; */
+}
+#summary{
+    height: 150px;
+}
+.Form-vc{
+    height: 790px;
+}
+#Stage label{
+  margin-left:-20px ;
+}
+
+
+
+@media (max-width: 787px) {
+  .form-container-vc {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0;
+    background-color: #E7DEE0;
+    height:1800px
+  }
+  .bg img {
+    display: none;
+  }
+  .regvc-row1 ,.regvc-row2,.regvc-row3,.regvc-row4,.regvc-row5{
+    flex-direction: column;
+  }
+  #vcname, #email, #contact, #expertise, #buildingNo, #street, #city, #state, #pin, #country, #vclinkedin, #investorType {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #Short-summary {
+    width: 100%;
+    margin-left: 0;
+  }
+  #Stage {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .btn-1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #bio {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

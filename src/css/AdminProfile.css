@@ -1,0 +1,86 @@
+
+.Admin-Profile-header {
+  margin: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #061b28;
+  border-radius: 5px;
+}
+.Side-Cont {
+  display: flex;
+}
+
+.Admin-Profile-header h4 {
+  margin: 20px;
+  color: white;
+}
+
+.Admin-Profile-body {
+  display: flex;
+  margin: 10px;
+  margin-top: 10px;
+  background-color: rgba(127, 255, 212, 0.13);
+}
+
+.Admin-parent {
+  width: 100%;
+  margin-left: 50px;
+  /* box-shadow: 0 0 18px rgb(145, 145, 145); */
+  
+}
+.Admin-child {
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+.Admin-child-left {
+  display: flex;
+  /* background-color: #10d49ce1; */
+  background: rgb(16,212,156);
+background: linear-gradient(180deg, rgba(16,212,156,0.9416141456582633) 4%, rgba(6,27,40,0.9752275910364145) 89%);
+  /* min-width: 25%; */
+  width: 295px;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Admin-child-left img {
+  border-radius: 100%;
+  border: 2px solid black;
+  width: 80%;
+  background-color: rgba(240, 248, 255, 0.377);
+}
+
+.Admin-child-right {
+  margin-left: 5px;
+  height: auto;
+  width: 100%;
+  background-color: #061b28;
+  border-radius: 10px;
+  border-top-left-radius: unset;
+  border-bottom-left-radius: unset;
+}
+.Admin-child-data {
+  background-color: #09273aab;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Admin-child-data p {
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin: 15px;
+  font-size: 1.3rem;
+  color: white;
+}

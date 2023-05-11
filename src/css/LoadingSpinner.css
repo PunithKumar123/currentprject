@@ -1,0 +1,12 @@
+/* .Loading-spinner{
+background-color: aquamarine;
+display: flex;
+justify-content: center;
+} */
+.Loading-spinner-child{
+    display: flex;
+justify-content: center;
+/* background-color: blanchedalmond; */
+margin: 200px;
+padding: 50px;
+}

@@ -1,0 +1,16 @@
+.btn {
+    font-family: arial;
+    color: #080808 !important;
+    font-size: 15px;
+    text-shadow: 0px 0px 5px #FFFFFF;
+    box-shadow: 3px 2px 8px #BEE2F9;
+    padding: 14px 18px;
+    border-radius: 33px;
+    border: 0px dashed #3866A3;
+    background: #63B8EE;
+  }
+  .btn:hover {
+    color: #000000 !important;
+    background: #4B96DE;
+    background: linear-gradient(to top, #4B96DE, #18DEDE);
+  }

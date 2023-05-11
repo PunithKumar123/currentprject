@@ -1,0 +1,35 @@
+.Main-Cont{
+    margin: 20px;
+    padding: 10px;
+  width: 100%;
+   display: flex;
+   /* background-color: rgba(127, 255, 212, 0.13); */
+   background-image: linear-gradient(to bottom, #10d49c, #00caa1, #00bfa4, #00b5a4, #00aaa3, #009b9d, #008c95, #007d8b, #00677a, #045267, #093d52, #0a2a3d);
+ 
+   
+}
+
+.Side-Cont{
+    /* position: absolute; */
+    margin: 20px;
+    /* display:flex; */
+    /* width:auto; */
+    display: flex;
+    box-shadow: 1px 1px 58px rgb(255, 255, 255);
+    /* border-right: 1px solid black; */
+    /* border: 2px solid black; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* height: 100vh; */
+ }
+
+.Home-Container{
+/* position: relative; */
+/* left: 35px; */
+/* width: 100%; */
+margin: 30px;
+display: flex;
+}
+
+
+

@@ -1,0 +1,104 @@
+.Main-feed-div {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.Feeds-Image {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  height: 600px;
+  width: 500px;
+}
+#feed-main-title {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Feeds-wrapper {
+  border-radius: 20px;
+  background-color: #0A2A3D;
+  height: fit-content;
+  color: white;
+}
+
+.Feeds-wrapper form {
+  margin: 10px;
+  padding: 10px;
+  width: 700px;
+  /* flex-wrap: wrap; */
+}
+.Feeds-Child-Cont {
+  display: flex;
+  justify-content: center;
+  display: inline;
+}
+
+.Feeds-Title-div {
+  /* height: auto; */
+  margin: 5px;
+  padding: 5px;
+  /* display: flex; */
+}
+
+.Feeds-Title-div input {
+  border-radius: 15px;
+}
+
+.Feeds-title {
+  
+  position: relative;
+  
+  border-radius: 10px;
+}
+.Feeds-Body {
+  margin: 5px;
+  padding: 5px;
+  /* width: 90%; */
+ 
+}
+
+.Feeds-Body input {
+  border-radius: 15px;
+}
+
+.Feeds-Content-input {
+  border-radius: 10px;
+  height: 100px;
+}
+.Feeds-Buttons {
+  color: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-feed-btn{
+  background-color: #10d49c;
+  color: #061b28;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  /* margin: auto; */
+  width: 30%;
+}
+/* .btn {
+  
+  border-radius: 15px;
+  width: 130px;
+} */
+.Feeds-Display-div{
+    position: relative;
+    margin: 20px;
+    top: 20px;
+}

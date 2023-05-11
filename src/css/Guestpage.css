@@ -1,0 +1,18 @@
+.card-container1{
+    border: 1px solid;
+    height: 100px;
+    width: 100%;
+    border-color: black;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    background-color: rgb(237, 233, 240);
+}
+.card-container1 h4 {
+    margin-top: 15px;
+      };
+
+
+
+
+

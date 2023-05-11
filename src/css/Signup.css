@@ -1,0 +1,288 @@
+
+.main-signup{
+  height:auto;
+  display: flex;
+  justify-content:space-around;
+  /* width: 100%; */
+  /* flex-direction: row; */
+/* justify-content: space-between; */
+  /* background: linear-gradient(207deg, rgba(16, 212, 156, 0.199) 23%, rgba(10, 42, 61, 0.938) 76%); */
+  background-image: linear-gradient(to left bottom, #10d49c, #00b3a0, #009299, #007186, #005169, #06435a, #0a364c, #0a2a3d, #0a2a3d, #0a2a3d, #0a2a3d, #0a2a3d);
+
+}
+.left-container-signup{
+  /* position: fixed; */
+width: 30%;
+/* padding: 20px; */
+display: flex;
+align-items: center;
+/* flex-wrap: wrap; */
+justify-content: center;
+flex-direction: column;
+}
+.left-container-signup-p{
+  font-size: 2.2rem;
+  word-break:normal;
+  font-weight: bolder;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+.left-container-signup img{
+  /* top: 30px; */
+  /* position: relative; */
+/* width: 50%; */
+height:380px;
+width:380px;
+}
+.container-signup {
+  /* position: absolute; */
+  /* overflow: auto; */
+  /* background-image: url("https://i0.wp.com/www.luamaralstudio.com/wp-content/uploads/2022/02/soft-aesthetic-desktop-wallpaper-for-computer-by-lu-amaral-studio-2.jpg?resize=980%2C551&ssl=1"); */
+  display: flex;
+  flex-direction: row-reverse;
+  /* align-items: center; */
+  /* background-color: #10d49c; */
+  /* background: rgb(16,212,156); */
+/* background: linear-gradient(207deg, rgba(16,212,156,0.5270483193277311) 23%, rgba(10,42,61,0.8435749299719888) 76%); */
+  /* margin-top: 0px; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* justify-content: center; */
+  margin-right:5%;
+  /* margin: 20px; */
+  background-repeat: round;
+}
+.Sso-signup {
+  /* margin-left: 65px; */
+  /* margin: 10px; */
+  width: auto;
+  display: block;
+  margin: auto;
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* margin-left: 16%; */
+  /* margin-top: 10px; */
+  /* margin: 10px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* border-radius: 20px; */
+}
+.Para p {
+  /* margin-bottom: 5px; */
+  margin: 10px;
+}
+.container-left {
+  position: relative;
+  display: flex;
+  width: auto;
+  height: 571px;
+  border-left: none;
+  margin-top: 20px;
+  
+
+  /* background-repeat: round; */
+  /* background-color: aqua; */
+}
+.container-left img {
+  width: 300px;
+  height: 565px;
+  /* border: 2px solid #ccc; */
+  border-radius: 10px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  object-fit: cover;
+}
+.title-signup {
+  font-size: 35px;
+ 
+  margin-bottom: 20px;
+  text-align: center;
+}
+.app-wrapper-signup {
+  /* background-color: white; */
+  color: white;
+  background-color: #061b28;
+  width: auto;
+  min-height: 800px auto;
+  /* border: 2px solid #ccc; */
+  border-radius: 20px;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-right: none;
+  padding: 20px;
+  padding-bottom: 0px;
+  height: 565px;
+  margin-top: 20px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Signuptype {
+  /* margin-left: 75px; */
+}
+.label-signup {
+  font-size: 18px;
+  
+  display: block;
+}
+::placeholder {
+  color: grey;
+  opacity: 0.5;
+}
+.role {
+  margin-left: 50px;
+}
+.input-block-signup input {
+  border-radius: 8px;
+}
+/* .txtForm-signup {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    transition: border-bottom-color 0.3s ease;
+  } */
+.txtForm-signup {
+  /* font-size:15px; */
+  /* width: 98%; */
+  /* padding: 10px; */
+  border: none;
+  border-bottom: 2px solid #ccc;
+  transition: border-bottom-color 0.3s ease;
+}
+.txtForm-signup:focus {
+  outline: none;
+  border-bottom-color: #10d49c;
+}
+.form-error {
+  color: #10d49c;
+  font-size: 12px;
+  margin-top: 1px;
+}
+.submit-button-signup {
+  background-color: #10d49c;
+  color: #061b28;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  /* margin: auto; */
+  width: 50%;
+  /* font-weight: bold; */
+  /* margin-top: 30px; */
+}
+.submit:hover {
+  background-color: #061b28;
+}
+p {
+  font-size: 16px;
+  /* margin: px; */
+  text-align: center;
+}
+a {
+  color: #10d49c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.txtForm-signup {
+  margin: 5px;
+  width: 100%;
+  padding: 10px;
+  /* font-size: 16px; */
+
+  /* border-radius: 5px; */
+  /* box-sizing: border-box; */
+  /* margin-bottom: 20px; */
+}
+
+/* .signup-form{
+        height: auto;
+      } */
+.bottom-signup {
+  /* display: flex; */
+  display: grid;
+  /* align-items: center; */
+  /* display: inline; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+.bottom-signup-btn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Small screens (phones) */
+@media only screen and (max-width: 600px) {
+  .main-signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto
+  }
+  .left-container-signup {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-container-signup img {
+    width: 250px;
+    height: 250px;
+  }
+  .container-left {
+    height: auto;
+  }
+  .container-left img {
+    display: none;
+  }
+  .app-wrapper-signup {
+    height: auto;
+  }
+  .input-block-signup {
+    margin-bottom: 20px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .main-signup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+  }
+  
+  
+  .left-container-signup {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-container-signup img {
+    width: 300px;
+    height: 300px;
+  }
+  .container-left {
+    height: auto;
+  }
+  .container-left img {
+   display: none;
+  }
+  .app-wrapper-signup {
+    height: auto;
+  }
+  .input-block-signup {
+    margin-bottom: 20px;
+  }
+}
+
+

@@ -1,0 +1,35 @@
+.form-container-st {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+  }
+  .form-container-st h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .form-container-st h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .form-container-st label {
+    display: block;
+    margin-bottom: -21px;
+  }
+  .form-container-st input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .form-container-st input[type="file"] {
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,39 @@
+.Searchbutton {
+    padding: 10px;
+    border-radius: 5px;
+    border:transparent;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 90%;
+    color:#000000b4 ;
+    background:transparent;
+  
+    
+  }
+  .Searchbutton-1 img{
+    width: 35px;
+    height: 35px;
+    opacity: 0.4;
+    
+  }
+  .Searchbutton-1{
+   
+   margin: 20px;
+   border: 2px solid rgba(0, 0, 0, 0.685);
+   
+    width: 300px;
+    border-radius: 15px;
+    width: 50%;
+  }
+  
+  .Searchbutton:focus {
+    outline: none;
+  }
+  .mainsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  

@@ -1,0 +1,63 @@
+.main-FeedsDisplay-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-items: center;
+  bottom: 10px;
+  flex-direction: column;
+}
+
+.Feeds-Main {
+  position: relative;
+  background-color:#0A2A3D;
+  box-shadow: 0px 0px 31px -4px rgba(4,229,167,1);
+  height: auto;
+  width: 68%;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  flex-direction: column; 
+}
+.Feeds-Photo {
+  width: 60px;
+  margin: 20px;
+  left: 10px;
+  border-radius: 50%;
+  
+  overflow: hidden;
+}
+
+.Feeds-Photo img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.Feeds-Cont {
+  
+  display: flex;
+  margin: 10px;
+  bottom: 20px;
+  background-color:#29d8a625;
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+  top: 90px;
+}
+
+.Feeds-Name-Time {
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #04e5a7;
+/* align-items: end; */
+  /* left: 110px; */
+
+  padding: 10px;
+  margin: 20px;
+}
+.Feeds-photo-time{
+  display: flex;
+  /* width: 100%; */
+}

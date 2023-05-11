@@ -1,0 +1,76 @@
+.Bidding-parent{
+  display: flex;
+  justify-content: center;
+}
+.Bidding-child {
+display: flex;
+background-color: rgba(155, 155, 155, 0.466);
+height: 500px;
+width: 700px;
+border-radius: 10px;
+padding: 10px;
+margin: 20px;
+}
+.Bidding-child-left {
+display: flex;
+background-color: #10d49ce1;
+width: 35%;
+border-radius: 10px;
+padding: 20px;
+/* justify-content: center; */
+align-items: center;
+}
+.Bidding-child-right {
+width: 65%;
+background-color: #0f856456;
+border-radius: 10px;
+}
+.Bidding-child-date-time {
+background-color: cadetblue;
+margin: 20px;
+padding: 5px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.Bidding-child-sector {
+background-color: rgb(36, 187, 192);
+height: 10%;
+margin: 20px;
+padding: 5px;
+}
+.Bidding-child-description {
+background-color: rgb(33, 128, 99);
+height: 40%;
+margin: 20px;
+padding: 5px;
+}
+.Bidding-child-button {
+display: flex;
+justify-content: center;
+margin: 10px;
+}
+.Bidding-button {
+border: none;
+padding: 5px;
+margin: 5px;
+border-radius: 15px;
+width: 40%;
+}
+.Home-Container{
+margin: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.Side-Cont{
+display: flex;
+margin: 20px;
+}
+.Main-Cont{
+margin: 20px;
+padding: 10px;
+display: flex;
+background-color: rgba(127, 255, 212, 0.13);
+}

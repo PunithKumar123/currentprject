@@ -1,0 +1,73 @@
+.filter-button {
+    position: relative;
+  }
+  
+  .Filterbutton, .Filterbutton-apply{
+    background-color: #0a2a3d;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  
+
+  .Filterbutton img{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 25px;
+  }
+  
+  .filter-button .dropdown {
+    position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    
+  }
+  
+  .filter-button .dropdown div {
+    margin-bottom: 10px;
+  }
+  
+  .filter-button .dropdown .filterspan {
+    display: inline-block;
+    width: 120px;
+  }
+  
+  .filter-button .dropdown select, .filter-button .dropdown input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+  }
+
+  .Filterinput{
+    display: flex;
+    flex-direction: column;
+  }
+  .filterspanvc{
+    width: auto;
+  }
+  .Filterinput input{
+   
+    font-size: 16px;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .adminsearchparent{
+    background-image: linear-gradient(to bottom, #10d49c, #00caa1, #00bfa4, #00b5a4, #00aaa3, #009b9d, #008c95, #007d8b, #00677a, #045267, #093d52, #0a2a3d); 
+  }
+  

@@ -1,0 +1,88 @@
+
+.main-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: radial-gradient(circle, #10D49C, #00CAA1, #00BFA4, #00B5A4, #00AAA3, #009B9D, #008C95, #007D8B, #00677A, #045267
+, #093D52, #0A2A3D);
+    padding: 20px;
+
+  }
+  
+  .investment-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #0a2a3d;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .investment-form img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .investment-form label {
+    font-size: 18px;
+    color: #00CAA1;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .investment-form input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .investment-form .Windowname {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .investment-form .date,
+  .investment-form .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .investment-form .date > div,
+  .investment-form .time > div {
+    width: 45%;
+  }
+  
+  .investment-form .description,
+  .investment-form .sector {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .investment-form .InvestmentButton button {
+    background-color: #eb5e28;
+    color: #fff;
+    border: none;
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .investment-form .InvestmentButton button:hover {
+    background-color: #d44c1f;
+  }
+  
+  .InvestmentButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
